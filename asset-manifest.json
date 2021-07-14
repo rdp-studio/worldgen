@@ -1,0 +1,28 @@
+{
+  "files": {
+    "static/js/0.606c8ff0.chunk.js": "/worldgen/static/js/0.606c8ff0.chunk.js",
+    "static/js/0.606c8ff0.chunk.js.map": "/worldgen/static/js/0.606c8ff0.chunk.js.map",
+    "main.css": "/worldgen/static/css/main.4aa839ba.chunk.css",
+    "main.js": "/worldgen/static/js/main.014d27ab.chunk.js",
+    "main.js.map": "/worldgen/static/js/main.014d27ab.chunk.js.map",
+    "runtime-main.js": "/worldgen/static/js/runtime-main.84d636eb.js",
+    "runtime-main.js.map": "/worldgen/static/js/runtime-main.84d636eb.js.map",
+    "static/js/3.efe12f85.chunk.js": "/worldgen/static/js/3.efe12f85.chunk.js",
+    "static/js/3.efe12f85.chunk.js.map": "/worldgen/static/js/3.efe12f85.chunk.js.map",
+    "static/js/4.9bfceb87.chunk.js": "/worldgen/static/js/4.9bfceb87.chunk.js",
+    "static/js/4.9bfceb87.chunk.js.map": "/worldgen/static/js/4.9bfceb87.chunk.js.map",
+    "static/js/5.ee8e4c1a.chunk.js": "/worldgen/static/js/5.ee8e4c1a.chunk.js",
+    "static/js/5.ee8e4c1a.chunk.js.map": "/worldgen/static/js/5.ee8e4c1a.chunk.js.map",
+    "static/js/6.b368e16c.chunk.js": "/worldgen/static/js/6.b368e16c.chunk.js",
+    "static/js/6.b368e16c.chunk.js.map": "/worldgen/static/js/6.b368e16c.chunk.js.map",
+    "index.html": "/worldgen/index.html",
+    "static/css/main.4aa839ba.chunk.css.map": "/worldgen/static/css/main.4aa839ba.chunk.css.map",
+    "static/js/3.efe12f85.chunk.js.LICENSE.txt": "/worldgen/static/js/3.efe12f85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84d636eb.js",
+    "static/js/3.efe12f85.chunk.js",
+    "static/css/main.4aa839ba.chunk.css",
+    "static/js/main.014d27ab.chunk.js"
+  ]
+}
