@@ -1,0 +1,51 @@
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color-nav);
+    padding: 0.5rem 1rem 0;
+    box-shadow: 0 0 1px 0 #5e6d6f;
+    transition: 0.2s background-color;
+
+    h2 {
+        font-weight: 450;
+        padding-left: 2rem;
+    }
+    .github {
+        white-space: nowrap;
+        margin-top: .75rem;
+        margin-bottom: .75rem;
+    }
+}
+
+@include respond-to("medium") {
+    .navbar {
+        padding: 0;
+    }
+    .navbar h2 {
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+@include respond-to("small") { 
+    .navbar h2 {
+        font-size: 5vw;
+    }
+}
+
+.content h2 {
+    display: inline;
+    padding: 5px 0 8px 8px;
+    transition: 0.2s;
+}
+h2 code {
+    cursor: pointer;
+}
+.content h2:hover {
+    background-color: var(--bg-color-nav);
+}

@@ -1,0 +1,64 @@
+{
+  "name": "worldgen",
+  "version": "0.1.0",
+  "homepage": "/worldgen",
+  "dependencies": {
+    "@delangle/use-modal": "^1.5.46",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.4.0",
+    "array-move": "^3.0.0",
+    "file-saver": "^2.0.5",
+    "java-random": "^0.4.0",
+    "json-view-for-react": "^2.0.1",
+    "jszip": "^3.6.0",
+    "knacss": "^8.0.2",
+    "masonry-layout": "^4.2.2",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.1.0",
+    "react-sortable-hoc": "^2.0.0",
+    "use-dark-mode": "^2.3.1",
+    "use-persisted-state": "^0.3.3"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext .js,.jsx src/"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "sort-imports-es6-autofix"
+    ],
+    "rules": {
+      "sort-imports-es6-autofix/sort-imports-es6": [1, {
+        "ignoreCase": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "source-map-explorer": "^2.5.1"
+  }
+}
